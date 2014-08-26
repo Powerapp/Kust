@@ -1,0 +1,32 @@
+<Alloy>
+	<Window id="container" fullScreen="true" navBarHidden="true" modal="true" exitOnClose="true">
+		<TableView id="menuTblView"></TableView>
+		<View id="topView">
+			<Button id="callKustBtn" onClick="callKust"></Button>
+			<Button id="menuBtn" onClick="showMenu"></Button>
+		</View>
+		<View id="slide">
+			<View id="menuContainer">
+				<ImageView id="signs"></ImageView>
+				<ImageView id="sandwich"></ImageView>
+				<ImageView id="beach"></ImageView>
+				<View id="openingHours">
+					<Label id="headLine"></Label>
+					<View id="hourLblContainer">
+						<Label id="hoursLbl"></Label>
+					</View>
+				</View>
+			</View>
+		</View>
+			<View id="bottomView">
+				<Label id="homeAway"></Label>
+			</View>
+		<View id="callKustView">
+		</View>
+		<View id="opDialogContainerView">
+				<Label id="opDialogHeadlineLbl"></Label>
+				<Button id="yesCallBtn" onClick="yesCallKust"></Button>
+				<Button id="noCallBtn" onClick="cancelCallKust"></Button>
+		</View>
+	</Window>
+</Alloy>

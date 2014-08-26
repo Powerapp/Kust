@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>se.powerapp.kustcafe</id>
+    <name>Kust Café</name>
+    <version>1.0.1</version>
+    <publisher>Powerapp</publisher>
+    <url>http://www.kustcafe.se</url>
+    <description>not specified</description>
+    <copyright>2014 by Powerapp</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>true</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>false</analytics>
+    <guid>6d626a23-58b8-4fc1-98f9-1fd8ede20eef</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:installLocation="preferExternal"
+            android:versionCode="2" android:versionName="1.0.1">
+            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17"/>
+            <property name="ti.ui.defaultunit" type="string">dp</property>
+            <supports-screens android:anyDensity="true"
+                android:largeScreens="true" android:normalScreens="true"
+                android:smallScreens="false" android:xlargeScreens="true"/>
+            <uses-permission android:name="android.permission.INTERNET"/>
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+            <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+            <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+            <uses-permission android:name="se.powerapp.kustcafe.permission.MAPS_RECEIVE"/>
+            <permission
+                android:name="se.powerapp.kustcafe.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+            <application>
+                <meta-data
+                    android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBevaOAATZMjwyMGV-EgR4pETu7kylFbkg"/>
+            </application>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="iphone">ti.map</module>
+        <module platform="android">ti.map</module>
+        <module platform="android">facebook</module>
+        <module platform="iphone">facebook</module>
+        <module platform="android">ti.urbanairship</module>
+        <module platform="iphone">ti.urbanairship</module>
+    </modules>
+    <property name="ti.facebook.appid">505626156229455</property>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.2.3.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="ti.deploytype">test</property>
+</ti:app>

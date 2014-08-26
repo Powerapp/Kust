@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="mapWin" fullScreen="true" navBarHidden="true" modal="true">
+		<View id="topView">
+			<Button id="backBtn" onClick="closeWin"></Button>
+		</View>
+         <View id="bottomView">
+			<Button id="homeAway"></Button>
+		</View>
+		<View id="onlyKustMap"></View>
+    </Window>
+</Alloy>
+

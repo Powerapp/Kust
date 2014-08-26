@@ -1,0 +1,11 @@
+android/ATTR_MINIFY=true
+android/ATTR_PROJECT_NAME=kustcafe
+android/abi=armeabi
+android/distribute_path=/Users/mkt/Desktop
+android/key_password=
+android/keystore_alias=Kust
+android/keystore_password=Annexet16
+android/keystore_path=/Users/mkt/android.keystore
+android/recent_output=/Users/mkt/Desktop
+android/sdk_version=2.3.3
+eclipse.preferences.version=1

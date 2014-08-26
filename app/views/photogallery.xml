@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="photoGalleryWin" fullScreen="true" navBarHidden="true" modal="true">
+		<View id="topView">
+			<Button id="backBtn" onClick="closeWin"></Button>
+			<Label id="titleLbl"></Label>
+		</View>
+			<ScrollView id="photosContainerView"></ScrollView>		
+		<View id="bottomView">
+			<Label id="homeAway"></Label>
+		</View>
+		<View id="bigImageViewContainer">
+			<ImageView id="bigImageView"></ImageView>
+		</View>
+	</Window>
+</Alloy>

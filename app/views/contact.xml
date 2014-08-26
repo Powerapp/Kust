@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="contactWin" fullScreen="true" navBarHidden="true" modal="true">
+		<ImageView id="backgroundImg"></ImageView>
+		<View id="topView">
+			<Button id="backBtn" onClick="closeWin"></Button>
+			<Button id="callKustBtn" onClick="callKust"></Button>
+		</View>
+		<View id="txtFieldContainer">
+			<Label id="messageLbl"></Label>
+			<View id="borderLine">
+				<TextArea id="messageTxtArea">
+					<Label id="hintTextLbl"></Label>
+				</TextArea>
+			</View>
+			<Button id="sendEmailBtn" onClick="sendEmail"></Button>
+		</View>
+		<View id="bottomView">
+			<Label id="homeAway"></Label>
+		</View>
+		<View id="callKustView"></View>
+		<View id="opDialogContainerView">
+				<Label id="opDialogHeadlineLbl"></Label>
+				<Button id="yesCallBtn" onClick="yesCallKust"></Button>
+				<Button id="noCallBtn" onClick="cancelCallKust"></Button>
+		</View>
+	</Window>
+</Alloy>

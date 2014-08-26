@@ -1,0 +1,1 @@
+module.exports = [{"isClass":true,"priority":10000.0021,"key":"container","style":{}},{"isId":true,"priority":100000.0022,"key":"row","style":{height:Ti.UI.FILL,}}];

@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="menuWin" fullScreen="true" navBarHidden="true" modal="true">
+		<View id="backgroundView">
+			<ImageView id="blueberry"></ImageView>
+			<ImageView id="salmon"></ImageView>
+			<ImageView id="bisquits"></ImageView>
+			<ImageView id="gabor"></ImageView>
+			<View id="blueView"></View>
+			<Label id="cateringLbl"></Label>
+		</View>
+		<View id="topView">
+			<Button id="backBtn" onClick="closeWin"></Button>
+		</View>
+			<TableView id="menuTblView"></TableView>
+		<View id="btnContainerView"></View>
+		<View id="bottomView">
+			<Label id="homeAway"></Label>
+		</View>
+	</Window>
+</Alloy>

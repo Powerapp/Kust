@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="eventsChildWin" fullScreen="true" navBarHidden="true" modal="true">
+		<View id="topView">
+			<Button id="backBtn" onClick="closeWin"></Button>
+		</View>
+		<WebView id="childUrlWin"></WebView>
+		<View id="bottomView">
+			<Label id="homeAway"></Label>
+		</View>
+		<ActivityIndicator id="activityIndicator" message="Loading..."/>
+	</Window>
+</Alloy>

@@ -1,0 +1,59 @@
+
+"#photoGalleryWin" : {
+  	backgroundColor:"#F9F9F9",
+	orientationModes: [Ti.UI.PORTRAIT, Ti.UI.UPSIDE_PORTRAIT],
+},
+"#topView": {
+	height: "10%",
+	top:"0dp",
+	right:"0dp",
+	left:"0dp",
+	backgroundColor:"#bcebf1",
+	bubbleParent:false,
+},
+"#backBtn":{
+	width:"20dp",
+	height:"20dp",
+	backgroundImage:"/images/backarrow.png",
+	left:"10dp",
+},
+
+"#photosContainerView":{
+	width:"90%",
+	height:"80%",
+	top:"10%",
+	bottom:"10%",
+	//scrollType:"vertical",
+	//style:"vertical",
+	layout:"vertical",
+	
+},
+"#bottomView": {
+	height: "10%",
+	bottom:"0dp",
+	right:"0dp",
+	left:"0dp",
+	backgroundColor:"#bcebf1"
+},
+"#homeAway":{
+	width:"90%",
+	height:"90%",
+	color:"#003978",
+	font:{fontSize:"12dp", fontWeight:"bold"},
+	textAlign:"left"
+},
+"#bigImageViewContainer":{
+	width:"100%",
+	top:"10%",
+	bottom:"10%",
+	backgroundColor:"#fff",
+	visible:false,
+	bubbleParent:false,
+
+},
+"#bigImageView":{
+	bubbleParent:true,
+	width:"100%",
+	height:"100%",
+	
+}

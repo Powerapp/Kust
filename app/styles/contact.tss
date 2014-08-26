@@ -1,0 +1,137 @@
+
+"#contactWin" : {
+	backgroundColor:"#F9F9F9",
+	orientationModes: [Ti.UI.PORTRAIT, Ti.UI.UPSIDE_PORTRAIT],
+	
+},
+"#topView": {
+	height: "10%",
+	top:"0dp",
+	right:"0dp",
+	left:"0dp",
+	backgroundColor:"#bcebf1",
+	bubbleParent:false,
+},
+"#backBtn":{
+	width:"20dp",
+	height:"20dp",
+	backgroundImage:"/images/backarrow.png",
+	left:"10dp",
+},
+"#callKustBtn":{
+	height:"20dp",
+	width:"30dp",
+	right:"10dp",
+	backgroundImage:"/images/phone.png"	
+},
+"#bottomView": {
+	height: "10%",
+	bottom:"0dp",
+	right:"0dp",
+	left:"0dp",
+	backgroundColor:"#bcebf1"
+},
+"#homeAway":{
+	width:"90%",
+	height:"90%",
+	text:"+46 40 47 38 30\nStorgatan 14, 23940 Falsterbo, Sverige\ninfo@kust.se   www.kustcafe.se",
+	color:"#003978",
+	font:{fontSize:"12dp"},
+	textAlign:"center"
+},
+"#backgroundImg":{
+	top:"10%",
+	bottom:"10%",
+	left:0,
+	right:0,
+	backgroundImage:"/images/hat.jpg",
+	opacity:0.4,
+},
+"#txtFieldContainer":{
+	width:"100%",
+	top:"10%",
+	bottom:"10%",
+	backgroundColor:"#F9F9F9",
+	layout:"vertical",
+	backgroundColor:"transparent",
+	scrollType:"vertical",
+},
+"#messageLbl":{
+	top:"5%",
+	width:"80%",
+	height:"auto",
+	textAlign:"left",
+	color:"#003978",
+	font:{fontSize:"12dp"},
+	text:"SKICKA ETT MAIL TILL OSS. SKRIV DITT MEDDELANDE I RUTAN.",
+},
+"#borderLine":{
+	top:"1%",
+	width:"80%",
+	height:"40%",
+	borderWidth:"3dp",
+	borderColor:"#003978",
+},
+"#messageTxtArea":{
+	top:"1%",
+	width:"100%",
+	height:"100%",
+	color:"#003978",
+	font:{fontSize:"14dp"},
+	keyboardType:Ti.UI.KEYBOARD_DEFAULT,
+	returnKeyType:Ti.UI.RETURNKEY_DONE,
+	autocorrect:false,
+	backgroundSelectedColor:"transparent",
+},
+"#sendEmailBtn":{
+	height:"25dp",
+	width:"30dp",
+	top:"3%",
+	right:"10%",
+	backgroundImage:"/images/envelope.png",
+	
+},
+"#callKustView":{
+	width:"80%",
+	height:"20%",
+	backgroundColor:"#bcebf1",
+	visible:false,
+	opacity:0.8
+},
+"#opDialogContainerView":{
+	width:"80%",
+	height:"20%",
+	visible:false,
+	
+},
+"#opDialogHeadlineLbl":{
+	width:"90%",
+	height:"auto",
+	top:"15%",
+	text:"RINGA TILL KUST CAFÉ?",
+	color:"#003978",
+	font:{fontSize:"16sp", fontWeight:"bold"},
+	textAlign:"center"
+},
+"#yesCallBtn":{
+	bottom:"15%",
+	left:"10%",
+	width:"25%",
+	height:"25%",
+	title:"Ja",
+	backgroundColor:"#003978",	
+	color:"#fff",
+	font:{fontSize:"16sp", fontWeight:"bold"},
+	textAlign:"center"
+},
+"#noCallBtn":{
+	bottom:"15%",
+	right:"10%",
+	width:"25%",
+	height:"25%",
+	title:"Nej",
+	color:"#fff",
+	backgroundColor:"#003978",
+	font:{fontSize:"16sp", fontWeight:"bold"},
+	textAlign:"center"	
+}

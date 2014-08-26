@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="faceBWin" fullScreen="true" navBarHidden="true" modal="true">
+		<View id="topView">
+			<Button id="backBtn" onClick="closeWin"></Button>
+		</View>
+		<WebView id="fbView"></WebView>
+		<ActivityIndicator id="activityIndicator" message="Loading..."/>
+	</Window>
+</Alloy>

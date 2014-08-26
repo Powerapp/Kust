@@ -1,0 +1,44 @@
+
+"#eventsWin" : {
+  	backgroundColor:"#F9F9F9",
+	orientationModes: [Ti.UI.PORTRAIT, Ti.UI.UPSIDE_PORTRAIT],
+},
+"#topView": {
+	height: "10%",
+	top:"0dp",
+	right:"0dp",
+	left:"0dp",
+	backgroundColor:"#bcebf1",
+	bubbleParent:false,
+},
+"#backBtn":{
+	width:"20dp",
+	height:"20dp",
+	backgroundImage:"/images/backarrow.png",
+	left:"10dp",
+},
+
+"#eventTblView":{
+	width:"90%",
+	top:"15%",
+	bottom:"15%",
+	separatorColor:"transparent",
+	minRowHeight:"50dp",
+	backgroundColor:"#F9F9F9",
+	//bubbleParent:false,
+},
+"#bottomView": {
+	height: "10%",
+	bottom:"0dp",
+	right:"0dp",
+	left:"0dp",
+	backgroundColor:"#bcebf1"
+},
+"#homeAway":{
+	width:"90%",
+	height:"90%",
+	text:"HOME AWAY FROM HOME",
+	color:"#fff",
+	font:{fontSize:"16dp", fontFamily:"Rockwell-Bold"},
+	textAlign:"center"
+}
